@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do-List</title>
+	<link rel="icon" type="image/png" href="Images/Head.png">
+</head>
+
+<body>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="Styles.css">
+
+<div class="container">
+	<div class="row row-mvdown">
+		<div class="col-md-4">
+			
+		</div>
+		<div class="col-md-4 colmod">
+			<a href="#"><img src="Images/Click3.png" alt="Image not found" height="200" width="60%" class="Head"></img></a> 
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>	
+	<hr>
+	<div class="row roback">	
+		<div class="col-md-10">
+
+		</div>
+		<div class="col-md-2">
+					<div class="btn"><a href="#"><strong>SignUp</strong></a></div>
+					<div class="btn"><strong>LogIn</strong></div>
+					<!--
+					<form>
+						<ul class="ul-pop">
+							<li>Id:<input type="text" class="usrname"></input></li>
+							<li>Password:<input type="password" class="pass"></input></li>
+						</ul>
+					</form>
+					-->
+		</div>		
+	</div>
+
+	<div class="row">
+	
+		<div class="col-md-3 menspc">
+			<ul class="menu">
+				<li><strong>MENU</strong></li>
+				<li>Home</li>
+			</ul>
+		</div>
+		<div class="col-md-8 Content">
+			<div class="row rowalign">
+				<div class="col-md-10">
+					<h1 id="align">Enter Tasks:</h1>
+				</div>
+				<div class="col-md-2">
+					<div class="tstamp">
+						<div id="create"></div>
+						<div id="delete">
+							<button type="button" onclick="tstamp()">TimeStamp</button>
+						</div>	
+					</div>	
+				</div>	
+			</div>	
+			<input type="text" class="inp" placeholder="Task"></input>
+			<button type="button" class="sub" onclick="createTask();Reset();"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+			<br>
+			<br>
+			<br>
+
+			<div id="tasks">
+				<div class="task">
+					
+
+						<div class="col-md-2">
+							&#x2192;
+						</div>
+						<div class="col-md-7">
+							First Task
+						</div>
+						<div class="col-md-3">
+							
+							<button class="tick" type="button">&#x2714;</button>
+							<button class="del-but" type="button">&#x2717;</button>
+						
+						</div>	
+
+				</div>	
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Script.js"></script>
+
+</body>
+</html>
